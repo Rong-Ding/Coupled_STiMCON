@@ -22,8 +22,16 @@ This script defines an oscillator with parameters.
 <b>STiMCON_core_v4.py</b>\
 Core script for the STiMCON model which has all the low-level code, adapted from Ten Oever and Martin (2021).
 
-<b>STiMCON_plot.py</b>\
-Plotting output of the STiMCON, from Ten Oever and Martin (2021)
+<b>AdaptedSTiMCON_PredictiveFeedback_RandomisedInput.py</b>\
+Implementing extended STiMCON when presenting randomised input, and saving the data of feedback activation per word node.
+
+<b>AdaptedSTiMCON_plotting_PredictiveFeedback.py</b>\
+Analysing and plotting data of feedback activation per word node by implementing extended STiMCON with rhythmic (isochronous) and randomised (non-isochronous) sensory inputs.
+
+<b>Figure2_4Hz_v2.jpg</b>\
+The resulting figure of AdaptedSTiMCON_plotting_PredictiveFeedback.py. Shown here as evidence of our work.
 
 <b>STiMCON_sen.py</b>\
-Creating sensory input going into the STiMCON
+Creating sensory input going into the STiMCON, from Ten Oever and Martin (2021).
+
+The original scripts of Ten Oever and Martin (2021) can be found here: <i>https://github.com/sannetenoever/STiMCON/tree/main</i>.
