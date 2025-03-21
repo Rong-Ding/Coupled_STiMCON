@@ -1,4 +1,4 @@
-# coupled_STiMCON 
+# Coupled_STiMCON 
 This repository describes the scripts from the second doctoral project of Rong Ding. This project is currently moving towards submission to a peer-reviewed journal.
 
 This project is a Python-based simulation project investigating how moderate coupling to external sensory stimuli affects the ability of an intrinsic oscillator model to track/process speech.
