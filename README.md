@@ -7,7 +7,9 @@ In the current project, we adapted the STiMCON model by Ten Oever and Martin (20
 To couple the model with external sensory stimuli, we introduced the Stuart-Landau process which allowed us to quantify the coupling strength with a scalar value K. 
 
 ## Explanation
-The repository consists of scripts belonging to simulations of the Stuart-Landau process, a new Oscillator module (which we used in STiMCON to accommodate the Stuart-Landau process), the adapted STiMCON model, and result analyses/plots.
+The repository consists of scripts belonging to simulations of the Stuart-Landau process, a new Oscillator module (which we used in STiMCON to accommodate the Stuart-Landau process), the adapted STiMCON model, and result generation & plots. 
+
+Note that, in terms of result scripts, as an example I have only uploaded the model implementation when it is presented with randomised stimulus inputs and is expected to generate a feedback activation (or not) depending on the predictability of each word node at a chosen time point. In the result plotting script, you will see the code snippets for analysing data from both rhythmic and randomised inputs, and the figure attached alongside the scripts here demonstrates what we found.
 
 ### Stuart-Landau related files:
 <b>stuart_landau_STiMCON.py:</b>\
