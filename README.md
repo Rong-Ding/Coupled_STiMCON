@@ -1,4 +1,3 @@
-# Coupled_STiMCON 
 This project is a Python-based simulation project investigating how moderate coupling to external sensory stimuli affects the ability of an intrinsic oscillator model to track/process speech.
 
 In the current project, we adapted the STiMCON model by Ten Oever and Martin (2021) (DOI: <i>https://doi.org/10.7554/eLife.68066</i>) which included a fixed intrinsic oscillator unaffected by external inputs. 
