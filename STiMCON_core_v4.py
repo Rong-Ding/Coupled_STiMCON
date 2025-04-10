@@ -6,7 +6,7 @@ The extended/adapted STiMCON model
 import numpy as np
 import math
 import sys
-sys.path.append("C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\oscillator\\")
+sys.path.append("~\\oscillator\\")
 from oscillator import Oscillator
 from stuart_landau_STiMCON import *
 
