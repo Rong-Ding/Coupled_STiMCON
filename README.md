@@ -24,16 +24,24 @@ This script defines an oscillator with parameters.
 <b>STiMCON_core_v4.py</b>\
 Core script for the STiMCON model which has all the low-level code, adapted from Ten Oever and Martin (2021).
 
+<b>AdaptedSTiMCON_PredictiveFeedback_RhythmicInput.py</b>\
+Implementing extended STiMCON when presenting isochronous input, and saving the data of feedback activation per word node.
+
 <b>AdaptedSTiMCON_PredictiveFeedback_RandomisedInput.py</b>\
-Implementing extended STiMCON when presenting randomised input, and saving the data of feedback activation per word node.
+Implementing extended STiMCON when presenting non-isochronous input, and saving the data of feedback activation per word node.
+
+<b>AdaptedSTiMCON_VarRhy_AmbiguousInput_Rhythmic.py</b>\
+Implement extended STiMCON when presented with isochronous input, and save the results of ambiguous input categorisation across 
+stimulus onset delays, degrees of ambiguity, and stimulus frequency
+
+<b>AdaptedSTiMCON_VarRhy_AmbiguousInput_Randomised.py</b>\
+Implement extended STiMCON when presented with non-isochronous input, and save the results of ambiguous input categorisation across 
+stimulus onset delays, degrees of ambiguity, and stimulus frequency
 
 <b>AdaptedSTiMCON_plotting_PredictiveFeedback.py</b>\
 Analysing and plotting data of feedback activation per word node by implementing extended STiMCON with rhythmic (isochronous) and randomised (non-isochronous) sensory inputs.
 
-<b>Figure2_4Hz_v2.jpg</b>\
-The resulting figure of AdaptedSTiMCON_plotting_PredictiveFeedback.py. Shown here as evidence of our work.
+<b>AdaptedSTiMCON_plotting_AmbiguousInput.py</b>\
+Analyse and plot data of ambiguous input categorisation implementing extended STiMCON with isochronous and non-isochronous sensory inputs
 
-<b>STiMCON_sen.py</b>\
-Creating sensory input going into the STiMCON, from Ten Oever and Martin (2021).
-
-The original scripts of Ten Oever and Martin (2021) can be found here: <i>https://github.com/sannetenoever/STiMCON/tree/main</i>.
+All the original scripts of Ten Oever and Martin (2021) used/called in the scripts above can be found: <i>https://github.com/sannetenoever/STiMCON/tree/main</i>.
