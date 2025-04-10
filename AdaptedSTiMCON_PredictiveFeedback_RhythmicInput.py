@@ -10,7 +10,7 @@ and save the data of feedback activation for each word node
 """
 import sys
 import os
-sys.path.append("C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Scripts\\")
+sys.path.append("~\\Scripts\\")
 import math
 import numpy as np
 import STiMCON_core_v4 as STiMCON_core
@@ -106,7 +106,7 @@ for it in range(iterations):
         i+=1
 
 #%% save the data
-os.chdir(r"C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Data_PredictiveFeedback\\Experiment1\\")
+os.chdir(r"~\\Experiment1\\")
 
 np.save(file=r"data_PredictiveFeedback_RhythmicInput_Uniform_AFST.npy",arr=AllFirstSpTime)
 np.save("data_PredictiveFeedback_RhythmicInput_Uniform_Phases.npy",arr=Phases)
