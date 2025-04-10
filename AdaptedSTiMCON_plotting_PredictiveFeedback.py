@@ -10,7 +10,7 @@ with rhythmic (ischronous) and randomised (non-isocrhonous) sensory inputs
 """
 import sys
 import os
-sys.path.append("C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Scripts\\")
+sys.path.append("~\\Scripts\\")
 import math
 import numpy as np
 import STiMCON_sen
@@ -69,7 +69,7 @@ N = 7 # total no. of nodes
 #%% Figure 1A: comparison Percentage activation
 # plotting: both rhythmic and random in one go
 # import data
-os.chdir(r"C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Data_PredictiveFeedback\\Experiment1\\")
+os.chdir(r"~\\Experiment1\\")
 AFST_rhy = np.load(file=r"data_PredictiveFeedback_RhythmicInput_Uniform_AFST.npy")
 AFST_ran = np.load(file=r"data_PredictiveFeedback_RandomInput_Uniform_AFST.npy")
 
@@ -135,7 +135,7 @@ plt.show()
 
 #%% Figure 2A: save
 fig2A = fig_perc
-figloc = "C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\writeup\\Figures\\"
+figloc = "~\\Figures\\"
 filenames = 'Figure2A'
 fig2A.savefig(figloc + filenames+ '.pdf', format='pdf',bbox_inches='tight')
 
@@ -209,6 +209,6 @@ plt.show()
 
 #%% Figure 1B: save
 fig2Bii = fig
-figloc = "C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\writeup\\Figures\\"
+figloc = "~\\Figures\\"
 filenames = 'Figure2Bii'
 fig2Bii.savefig(figloc + filenames+ '.pdf', format='pdf',bbox_inches='tight')
