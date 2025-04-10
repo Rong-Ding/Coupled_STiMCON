@@ -1,6 +1,4 @@
 # Coupled_STiMCON 
-This repository describes the scripts from the second doctoral project of Rong Ding. This project is currently moving towards submission to a peer-reviewed journal.
-
 This project is a Python-based simulation project investigating how moderate coupling to external sensory stimuli affects the ability of an intrinsic oscillator model to track/process speech.
 
 In the current project, we adapted the STiMCON model by Ten Oever and Martin (2021) (DOI: <i>https://doi.org/10.7554/eLife.68066</i>) which included a fixed intrinsic oscillator unaffected by external inputs. 
@@ -8,8 +6,6 @@ To couple the model with external sensory stimuli, we introduced the Stuart-Land
 
 ## Explanation
 The repository consists of scripts belonging to simulations of the Stuart-Landau process, a new Oscillator module (which we used in STiMCON to accommodate the Stuart-Landau process), the adapted STiMCON model, and result generation & plots. 
-
-Note that, in terms of result scripts, as an example I have only uploaded the model implementation when it is presented with randomised stimulus inputs and is expected to generate a feedback activation (or not) depending on the predictability of each word node at a chosen time point. In the result plotting script, you will see the code snippets for analysing data from both rhythmic and randomised inputs, and the figure attached alongside the scripts here demonstrates what we found.
 
 ### Stuart-Landau related files:
 <b>stuart_landau_STiMCON.py:</b>\
