@@ -11,7 +11,7 @@ sensory inputs
 
 """
 import sys
-sys.path.append("C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Scripts\\")
+sys.path.append("~\\Scripts\\")
 import os
 import math
 import numpy as np
@@ -73,7 +73,7 @@ stimpara = {'word_duration': int(0.5/Freq*fs),
 senObj = STiMCON_sen.modelSen(stimpara,parameters)
 
 #%% read the data
-os.chdir(r"C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Data_AmbiguousInput\\Experiment1\\Isochronous\\")
+os.chdir(r"~\\Data_AmbiguousInput\\Experiment1\\Isochronous\\")
 Freq = 4
 fs = 1000
 N = 8
@@ -205,7 +205,7 @@ axs[0].set_yticklabels(y_labels,fontsize=10)
 #axs[0].set_ylabel('proportion "cake" stimulus')  # Updated label
 
 #%% save each subplot (w/o tick labels)
-figloc = "C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\writeup\\Figures\\"
+figloc = "~\\Figures\\"
 fig2D = fig
 filenames = 'Figure2D'
 fig2D.savefig(figloc + filenames+ '_K={}_i.pdf'.format(ks[ind_k]), format='pdf')
@@ -224,7 +224,7 @@ stim_Freqs = [2,3,4,5,6,7,8]
 Nnodes = 5
 
 # Find current directory
-os.chdir(r"C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Data_AmbiguousInput\\Experiment2\\NonIsochronous\\Version2\\")
+os.chdir(r"~\\Data_AmbiguousInput\\Experiment2\\NonIsochronous\\Version2\\")
 # Define the pattern to search for files
 file_pattern = '*data_VarRhy_FirstActive_RandomInput_it*'
 # Get a list of all files matching the pattern
@@ -304,7 +304,7 @@ axs[0].set_yticklabels(y_labels,fontsize=10)
 #axs[0].set_ylabel('proportion "cake" stimulus')  # Updated label
 
 #%% save each subplot (w/o tick labels)
-figloc = "C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\writeup\\Figures\\"
+figloc = "~\\Figures\\"
 fig2D = fig
 filenames = 'Figure2D'
 fig2D.savefig(figloc + filenames+ '_K={}_iii.pdf'.format(ks[ind_k]), format='pdf')
