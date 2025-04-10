@@ -14,7 +14,7 @@ results with stimulus frequency = 4Hz)
 
 """
 import sys
-sys.path.append("C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Scripts\\")
+sys.path.append("~\\Scripts\\")
 import math
 import numpy as np
 import STiMCON_core_v4 as STiMCON_core
@@ -87,7 +87,7 @@ delays = np.linspace(-0.25,0.75,20)/Freq*fs # delays has to be changed with stim
 #ks = [0,10,20,30,40]
 ks = [0,5,10,15,20,30,40,50]
 stim_Freqs = [2,3,4,5,6,7,8]
-os.chdir(r"C:\\Users\\rondin\\Desktop\\Projects\\Project 2\\STiMCON-main\\STiMCON-main\\Data_AmbiguousInput\\Experiment2\\Isochronous\\")
+os.chdir(r"~\\Data_AmbiguousInput\\Experiment2\\Isochronous\\")
 
 iterations = 1000 # mainly phase randomisation; per iteration 12*20*8 = 320 sub
 AllFirstSpTime = np.zeros([len(prop),len(delays),Nnodes,len(ks),iterations,len(stim_Freqs)])
