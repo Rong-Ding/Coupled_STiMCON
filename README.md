@@ -1,9 +1,10 @@
-This project is a Python-based simulation project investigating how coupling to external sensory stimuli affects the ability of an intrinsic oscillator model to track/process speech.
+## 〰 Coupled Oscillatory Word Networks
+This is a Python-based simulation project investigating how coupling to external sensory stimuli affects the ability of an intrinsic (neural-)oscillator model to track/process speech.
 
-In the current project, we adapted the STiMCON model by Ten Oever and Martin (2021) (DOI: <i>https://doi.org/10.7554/eLife.68066</i>) which included a fixed intrinsic oscillator unaffected by external inputs. 
-To couple the model with external sensory stimuli, we introduced the Stuart-Landau process, which allowed us to quantify the coupling strength with a scalar value K. 
+In the current project, we adapted the STiMCON model by Ten Oever and Martin (2021) (DOI: <i>https://doi.org/10.7554/eLife.68066</i>), which included an **intrinsic oscillator network** of word nodes unaffected by external inputs. 
+To couple the intrinsic oscillator model with **external sensory stimuli**, we introduced the Stuart-Landau process, which allowed us to quantify the coupling strength with a scalar value K. 
 
-We found that weak sensory coupling/entrainment, compared to no or strong coupling, helps the oscillator better balance the use of internal language knowledge with the tolerance for unexpectedness in speech processing.
+We found that **weak sensory coupling/entrainment**, compared to no or strong coupling, helps the oscillator better balance the use of **internal language knowledge** with the tolerance for **unexpectedness** in speech processing.
 
 ## Explanation
 The repository consists of scripts belonging to simulations of the Stuart-Landau process, a new Oscillator module (which we used in STiMCON to accommodate the Stuart-Landau process), the adapted STiMCON model, and result generation & plots. 
